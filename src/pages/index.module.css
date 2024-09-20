@@ -30,7 +30,6 @@
   align-items: center;
   justify-content: start;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, #2f3d71, #19152c);
 }
 
 .main {
