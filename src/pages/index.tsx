@@ -1,19 +1,13 @@
-import Head from "next/head"
-import Link from "next/link"
-
 import styles from "./index.module.css"
 import Image from "next/image"
 import { Header } from "~/components/Header"
 import { Footer } from "~/components/Footer"
+import MyHead from "~/components/MyHead"
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Erno Wever</title>
-        <meta name="description" content="Erno Wever Software Solutions" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <MyHead />
       <div className={styles.wrapper}>
         <Header />
         <main className={styles.main}>
