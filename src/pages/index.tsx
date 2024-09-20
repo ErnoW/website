@@ -18,10 +18,18 @@ export default function Home() {
         <Header />
         <main className={styles.main}>
           <div className={styles.container}>
-            <h2 className={styles.title}>
-              Erno Wever <span className={styles.titleSpan}>Software</span>
-              <span className={styles.titleSpan}>Solutions</span>
-            </h2>
+            <div className={styles.hero}>
+              <Image
+                src="/brand/ew-logo-white.svg"
+                alt="Erno Wever Software Solutions Logo"
+                width={120}
+                height={60}
+              />
+              <h2 className={styles.title}>
+                Erno Wever <span className={styles.titleSpan}>Software</span>
+                <span className={styles.titleSpan}>Solutions</span>
+              </h2>
+            </div>
 
             <div className={styles.section}>
               <p>
