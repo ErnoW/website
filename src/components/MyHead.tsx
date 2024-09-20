@@ -1,8 +1,6 @@
 import Head from "next/head"
 import React from "react"
 
-interface HeadProps {}
-
 export default function MyHead() {
   return (
     <Head>
